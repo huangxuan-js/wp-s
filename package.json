@@ -1,0 +1,40 @@
+{
+  "name": "wp-s",
+  "version": "1.0.0",
+  "description": "webpack demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config=webpack.config.js",
+    "server": "webpack-dev-server --open --inline --config=webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangxuan-js/wp-s.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "huangxuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangxuan-js/wp-s/issues"
+  },
+  "homepage": "https://github.com/huangxuan-js/wp-s#readme",
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "html-withimg-loader": "^0.1.16",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.4",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0"
+  }
+}
